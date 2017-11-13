@@ -1,5 +1,7 @@
 #encoding=utf-8
-
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 #单位属性代码表
 organization = (
     (1,u'军队'),
@@ -101,4 +103,5 @@ BeiAn = (
 )
 
 
-
+ircsId = "20171106"
+key = "yhsj@2016"
